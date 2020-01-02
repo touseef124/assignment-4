@@ -1,4 +1,4 @@
-assignment 3 question 1
+assignment 4 question 1
 
 print('Press + for Addition')
 print('Press - for Subtraction')
@@ -28,7 +28,7 @@ elif operation=='^':
     b=int(input('Please Enter Second Value='))
     print('Power is=',a^b)
 
-assignment 3 question 2
+assignment 4 question 2
 
 tauseef=[3,'yasir',2,'ahad','khubaib']
 for a in tauseef:
@@ -38,7 +38,7 @@ for a in tauseef:
         print(' ')
         
 
-assignment 3 question 3
+assignment 4 question 3
 
 dicti={'ali':'saad',2:'ali',3:'yasir',4:'waseem',5:'umer'}
 x=input('Please enter key name=')
@@ -47,7 +47,7 @@ dicti[x]=y;
 print(dicti.keys())
 print(dicti.values())
 
-assignment 3 question 5
+assignment 4 question 5
 
 Tauseef=['ali','ahad','3','ahad','khubaib']
 print(Tauseef)
@@ -60,7 +60,7 @@ for check in Tauseef:
             print('There is a duplicate data in list',check)
 
 
-assignment 3 question 6
+assignment 4 question 6
 
 
 dicti={'name':'saad','number':'0321','address':'karachi','study':'M.Sc'}
