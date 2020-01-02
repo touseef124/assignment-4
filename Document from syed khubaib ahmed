@@ -1,0 +1,78 @@
+assignment 3 question 1
+
+print('Press + for Addition')
+print('Press - for Subtraction')
+print('Press / for Division')
+print('Press * for Multipication')
+print('Press ^ for power')
+operation=input('please input Operation you want to Perform')
+
+if operation=='+':
+    a=int(input('Please Enter First Value='))
+    b=int(input('Please Enter Second Value='))
+    print('Sum is=',(a+b))
+elif operation=='-':
+    a=int(input('Please Enter First Value='))
+    b=int(input('Please Enter Second Value='))
+    print('Difference is=',(a-b))
+elif operation=='/':
+    a=int(input('Please Enter First Value='))
+    b=int(input('Please Enter Second Value='))
+    print('Division is=',a/b)
+elif operation=='*':
+    a=int(input('Please Enter First Value='))
+    b=int(input('Please Enter Second Value='))
+    print('Multiplication is=',(a*b))
+elif operation=='^':
+    a=int(input('Please Enter First Value='))
+    b=int(input('Please Enter Second Value='))
+    print('Power is=',a^b)
+
+assignment 3 question 2
+
+tauseef=[3,'yasir',2,'ahad','khubaib']
+for a in tauseef:
+    if (a%1) == 0:
+        print(a)
+    else:
+        print(' ')
+        
+
+assignment 3 question 3
+
+dicti={'ali':'saad',2:'ali',3:'yasir',4:'waseem',5:'umer'}
+x=input('Please enter key name=')
+y=input('please enter key data=')
+dicti[x]=y;
+print(dicti.keys())
+print(dicti.values())
+
+assignment 3 question 5
+
+Tauseef=['ali','ahad','3','ahad','khubaib']
+print(Tauseef)
+i=1
+for check in Tauseef:
+    ahad=Tauseef[i:]
+    i+=1
+    for asai in ahad:
+        if asai==check:
+            print('There is a duplicate data in list',check)
+
+
+assignment 3 question 6
+
+
+dicti={'name':'saad','number':'0321','address':'karachi','study':'M.Sc'}
+i=1;
+key=input('please enter the key to add in dictionary=')
+for check in dicti.keys():
+    if key==check:
+        print('This key already exist in dictionary')
+        print(dicti.keys())
+        i=i+1;
+if i == 1:
+    data=input('please enter data for key=')
+    dicti[key]=data;
+print(dicti)
+    
